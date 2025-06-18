@@ -1,2 +1,2 @@
 # portifolio2
-Repositório criado para estudos de programação Front-End em linguagem HTML, CSS, no curso Técnico em desenvolvimento De Sistema, Colégio Estadual Gabriel de Lara
+repositorio cria para registro dos Certificados e projetos de estudo no desenvolvimento de habilidades em progamação front-end e mobile
