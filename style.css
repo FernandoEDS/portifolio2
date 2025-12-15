@@ -1,32 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+:root{
+    --cor-principal: #654521;
+    --cor-escuro: #896540;
+    --cor-café: #ae8760;
+    --cor-claro: #d5ab82;
+    --cor-muitoclaro: #fcd0a6;
+    --cor-branco:#FFFFFF;          
+}
+#body{
+    background-color: var(--cor-muitoclaro);
+} 
+#rodape{
+    background-color: var(--cor-escuro);
+    color: var(--cor-branco);
+} 
 
+#ancora{
+ text-decoration: none;
+ color: var(--cor-branco);
+ font-size: 18px; 
+ transition: color 0.3s ease; 
 
-:root {
-    --cor-principal: #4b4453;
-    --cor-vermelho: #a10000;
-    --cor-preto: #08005f;
-    --cor-azul: #006ecf;
-    --cor-bramca: #fff6ff;
-    --cor-roxa: #4e2096;
-}
-body {
-    font-family: 'Manufacturing Consent';
-}
-#body {
-    background-color: var(--cor-azul)
-}
-#rodape {
-    background-color:  var(--cor-roxa);
-}
-#ancora {
-    text-decoration:  none;
-    color: var(--cor-vermelho);
-    font-size: 18px;
-    transition: color 0.3s ease;
-}
-#ancora:hover {
-    color: var(--cor-vermelho);
-    cursor: pointer;
+} 
+#ancora:hover{
+    color:var(--cor-branco);
+    cursor:pointer;
     text-decoration: underline;
+
+}
+
+.habilidades {
+    text-decoration: none;
 }
